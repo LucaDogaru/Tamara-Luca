@@ -17,7 +17,7 @@ function showValue() {
       } else {
         document.getElementById("show-profession").style.backgroundColor = "yellow";
       }
-    /*document.getElementById('hello').style.display = "none";*/
+    // document.getElementById('hello').style.display = "none";
 }
 
 const showBtn = document.querySelector("#showBtn");
