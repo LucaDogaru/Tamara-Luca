@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Day 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body style="margin:20px;">
+    <form id="hello" style="display:block;">
+      <label>First Name: </label><br>
+      <input type="text" id="name" required><br>
+      <label>Last Name: </label><br>
+      <input type="text" id="lname" required><br>
+      <label>Age: </label><br>
+      <input type="text" id="age" required><br><br>
+      <label for="profession">Choose a profession:</label>
+  <select id="profession" name="profession">
+    <option value="noValue">---</option>
+    <option value="IT">IT</option>
+    <option value="Hospitality">Hospitality</option>
+  </select> <br><br>
+      <button type="button" id="showBtn">submit</button> 
+    </form>
+    <div id="show-fname"></div>
+    <div id="show-lname"></div>
+    <div id="show-age"></div>
+    <div id="show-profession"></div>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
