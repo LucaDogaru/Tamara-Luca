@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    justify-content: center; 
+    margin-top: 10%;  
+}
+
+#circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+#circlep{
+    text-align: center;
+}
